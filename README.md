@@ -24,3 +24,7 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+My algorithm's while loop will iterate over every node in the graph to find the shortest path to each node. In the first for loop I iterate over a priority queue that get's bigger and then smaller over time. There is another for loop after this that runs over the all the nodes to find new connections to add to the priority queue. This last for loop complexity times the outer while loop is $v^2$ (v for the verteces that I called nodes for some reason). 
+
+$\therefore$ my asymptotic complexity is $\Theta(v^2)$.
