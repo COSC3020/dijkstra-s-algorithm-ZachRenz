@@ -1,4 +1,4 @@
-//based structure off classmates test functions
+//again I looked at some other test code to get an idea of how this needs to be tested
 const fs = require('fs');
 const assert = require('assert');
 const { inflate } = require('zlib');
