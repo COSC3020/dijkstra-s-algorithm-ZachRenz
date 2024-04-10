@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/2Wy-Iis-)
 # Dijkstra's Algorithm
 
 Recall the pseudocode for Dijkstra's algorithm:
@@ -23,3 +24,7 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+My algorithm's while loop will iterate over every node in the graph to find the shortest path to each node. In the first for loop I iterate over a priority queue that get's bigger and then smaller over time. There is another for loop after this that runs over the all the nodes to find new connections to add to the priority queue. This last for loop complexity times the outer while loop is $v^2$ (v for the verteces that I called nodes for some reason). 
+
+$\therefore$ my asymptotic complexity is $\Theta(v^2)$.
